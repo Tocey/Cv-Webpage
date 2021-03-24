@@ -1,0 +1,436 @@
+/*@@@@@@@@@@@@@@@@@BODY&HTML@@@@@@@@@@@@@@@@@@@@@BODY&HTML@@@@@@@@@@@@@@@@@*/
+body html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  background-color: #eaffd0;
+}
+
+/*@@@@@@@@@@@@@@@@NAVIGATION-BAR@@@@@@@@@@@@@@NAVIGATION-BAR@@@@@@@@@@@@@@@*/
+.nav-top {
+  font-family: "Lobster";
+  font-size: 1.7rem;
+  color: #ffee93;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-top:hover {
+  color: #fff76a;
+  border-bottom: 3px solid #ffee93;
+  bottom: 2px;
+  top: 0;
+  padding-bottom: 1px;
+  transition: all 1s;
+}
+
+.navigation-container {
+  background-color: #95e1d3;
+}
+
+/*@@@@@@@@@@@@@@@@@@TITLE-TEXT@@@@@@@@@@@@@@@TITLE-TEXT@@@@@@@@@@@@@@@@@@@@@@*/
+.title-text {
+  font-family: "Lobster";
+  padding: 90px 0 0 110px;
+  display: inline-flex;
+  font-size: 4.5rem;
+}
+
+.title-text::before {
+  content: open-quote;
+}
+
+.title-text::after {
+  content: close-quote;
+}
+
+.antonio {
+  font-family: "Great Vibes";
+  font-weight: bold;
+  padding: 10px 0 0 150px;
+  font-size: 3rem;
+}
+
+/*@@@@@@@@@BACKGROUND-IMAGE@@@@@@@@@@@@@BACKGROUND-IMAGE@@@@@@@@@@@@@@@@@@@@@*/
+.background-image {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  position: absolute;
+  left: 50%;
+  top: 38%;
+}
+
+/*@@@@@@@@@@@@FIRST-CONTAINER@@@@@@@@@@FIRST-CONTAINER@@@@@@@@@@@@@@@@@@@@@@*/
+.header-container {
+  width: 100%;
+  height: 900px;
+  position: relative;
+  background-color: #ffee93;
+  overflow: hidden;
+}
+
+/*@@@@@@@@@@@@@CLEARFIX-WHOLE-PAGE@@@@@@@@@@@@@@@@CLEARFIX-WHOLE-PAGE@@@@@@@*/
+.clearfix {
+  margin: 100px 50px;
+  background-color: #eaffd0;
+  border-radius: 50px;
+  padding: 100px 0;
+}
+
+/*@@@@@@@@@@@@@@@@@IMAGES&IMAGES@@@@@@@@@@@@@@@@IMAGES&IMAGES@@@@@@@@@@@@@@*/
+/******************PROFILE-IMAGE************************************/
+.profile-image {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  margin: 100px 100px 0 0;
+  border: 2px solid #ffee93;
+}
+
+/***************BANANA-IMAGE*****SKILLS-IMAGE*******************************/
+.skills-picture {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+/**********************BANANA-WORK-SECTION-*******************************/
+.work-banana-up {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 60%;
+  top: 25%;
+}
+
+/*@@@@@@BANANA-ANTIMATION-FOOTER@@@@@@@ANIMATION-FOOTER@@@@@@@@@@@@@@@@@*/
+.work-picture {
+  position: absolute;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  top: 10%;
+  animation: banana-fly 3s infinite;
+  overflow: hidden;
+  animation-direction: alternate-reverse;
+  border-radius: 50%;
+}
+
+@keyframes banana-fly {
+  0% {
+    left: 0px;
+  }
+
+  50% {
+    left: -100px;
+    top: 50px;
+  }
+
+  75% {
+    left: 50%;
+    top: 70px
+  }
+
+  100% {
+    left: 90%;
+    top: 30px
+  }
+}
+
+/*@@@@@@@@@INFO-TEXT-CLEARFIX-CONTAINER@@@@@INFO-TEXT-CLEARFIX-CONTAINER@@@*/
+.about-info-text {
+  margin: 100px 10px 0 80px;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+/************************HEADERS-INFO-CLEARFIX-CONTAINER******************/
+.headers-text {
+  font-family: "Lobster";
+  font-size: 2rem;
+  display: inline-block;
+}
+
+/******PARAGRAPH-CLEAFIX-CONTAINER-ALL************PARAGRAPH*************/
+.text-p {
+  line-height: 1.3em;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin: 20px 0;
+}
+
+/**********TEXT-P-QUOTE****QUOTE*************QUOTE*********QUOTE*******/
+.quote-p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.quote-p:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.quote-p::before {
+  content: open-quote;
+}
+
+.quote-p::after {
+  content: close-quote;
+}
+
+.notke {
+  font-size: 0.7rem;
+}
+
+/*@@@@@@@@@@@@@@@@@@SKILLS-SECTION-CONTAINER-ONLY@@@@@@@@@@@@@@@@@@@@@@@@*/
+#skills {
+  margin-top: 300px;
+}
+
+/*@@@@@@@@@@@@@@@@@@RESTAURANT-LINK@@@@@RESTAURANT-LINk@@@@@@@@@@@@@@@@@@*/
+.restaurant-link {
+  text-decoration: none;
+  color: #ff75a0;
+}
+
+.restaurant-link:hover {
+  color: #95e1d3;
+}
+
+/*@@@@@@PROGRESS-BAR@@@@@@@@@@PROGRESS-BAR@@@@@@@@@PROGRESS-BAR@@@@@@@@@*/
+.progress {
+  margin-top: 20px;
+  width: 40%;
+  margin-left: 100px;
+  overflow: hidden;
+}
+
+.bar-text {
+  color: #ff7171;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.progress-bar {
+  background-color: #95e1d3;
+  display: block;
+  animation: progressBar 15s ease-in-out;
+  animation-fill-mode: both;
+}
+
+/*progressbar animation****progressbar-animation************************/
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+
+  85% {
+    width: 85%;
+  }
+}
+
+/*@@@@@@@@WORK-SECTION-CARDS@@@@@@WORK-SECTIOn-CARDS@@@@@@@@@@@@@@@@@@@*/
+.card-image {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  opacity: 0.7;
+}
+.card-image:hover
+{
+  opacity: 1;
+}
+.cv-image {
+  list-style-type: none;
+  padding-left: 100px;
+  margin-top: 30px;
+}
+
+/*********************WEBPAGe-CARD-LINK****************************/
+.webpage-links {
+  color: #ffee93;
+}
+
+.webpage-links:hover {
+  color: #95e1d3;
+}
+
+.link-favi {
+  margin-top: 20px;
+}
+
+/********************CARD TITLE***************************************/
+.card-title {
+  font-family: "Lobster";
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+/**********SIGNATURE*****SIGNATURE*********************************/
+.text-thanks {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.your-antonio {
+  font-family: "Great Vibes";
+  font-size: 2rem;
+}
+
+.card-container {
+  position: relative;
+}
+
+/*@@@@@@@@@@@@@@@BOTTOM-FOOTER-LAST-SECTION@@@@@@@@@FOOTER@@@@@@@@@@@@@@@@@*/
+.last-container-one {
+  position: relative;
+}
+
+/******************Footer-container ***************************************/
+.bottom-footer {
+  margin-top: 200px;
+  background-color: #95e1d3;
+  height: 150px;
+  text-align: center;
+}
+
+.footer-title {
+  font-family: "Great Vibes";
+  margin-top: 30px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@Bottom-Navigation@@@@@@@@@@@@@@@@@@@@@@@@@@**/
+/********************SOCIAL ICONS **************************************/
+.social-icon-bottom {
+  color: #ff7171;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*****SOCIAL-ICONS-NAVIGATION-BOTTOM************************************/
+.bottom-nav {
+  position: absolute;
+  right: 70px;
+  top: -32px;
+}
+
+.bottom-nav-2 {
+  position: absolute;
+  right: 190px;
+  top: -32px;
+}
+
+.bottom-nav-3 {
+  position: absolute;
+  right: 330px;
+  top: -32px;
+}
+
+.bottom-nav-4 {
+  position: absolute;
+  right: 470px;
+  top: -32px;
+}
+
+.bottom-nav-5 {
+  position: absolute;
+  right: 610px;
+  top: -32px;
+}
+
+
+.home-button
+{
+  color: #ff7171;
+}
+
+a[data-tool-tip]
+{
+  position: relative;
+}
+
+a[data-tool-tip]::after
+{
+  content:attr(data-tool-tip);
+  display: block;
+  position: absolute;
+  background-color: #95e1d3;
+  padding: 1em 3em;
+  color:  #ff7171;
+  border-radius: 5px;
+  font-size: 1em;
+  bottom: 0%;
+  left:0;
+  white-space:nowrap;
+  transform: scale(0);
+  transition: transform ease-out 150ms,
+  bottom ease-out 150ms;
+}
+a[data-tool-tip]:hover::after{
+  transform: scale(1);
+  bottom:100%;
+
+}
+.footer-para
+{
+  font-size: 0.3rem;
+}
+
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@MEDIA@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/***********************MEDIA****************************/
+@media only screen and (max-width: 768px) {
+  .background-image {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+
+  .title-text {
+    font-size: 2.5rem;
+  }
+
+  .slide-banana {
+    display: none;
+  }
+
+  .work-banana-up {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+  }
+  img
+  {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 579px) {
+
+    div section
+    {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    img
+    {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+  }
+}
